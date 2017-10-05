@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function pantheonprofile_install() {
+function pantheonsite_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -68,9 +68,24 @@ function pantheonprofile_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
+//  Enable some custom theme zurb_Pantheon.
+  $enable = array(
+    'theme_default' => 'zurb_Pantheon',
+    'admin_theme' => 'seven',
+  );
+  theme_enable($enable);
+  foreach ($enable as $var => $theme) {
+    if (!is_numeric($var)) {
+      variable_set($var, $theme);
+    }
+  }
+  // Disable the default Bartik theme
+  theme_disable(array('bartik'));
+  // Set custom theme as default.
+  $default_theme = variable_get('theme_default', 'zurb_Pantheon');
   $admin_theme = 'seven';
+
+  // Enable some standard blocks.
   $blocks = array(
     array(
       'module' => 'system',

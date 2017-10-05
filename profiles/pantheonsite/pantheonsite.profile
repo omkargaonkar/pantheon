@@ -9,7 +9,7 @@
  *
  * Allows the profile to alter the site configuration form.
  */
-function pantheonprofile_form_install_configure_form_alter(&$form, $form_state) {
+function pantheonsite_form_install_configure_form_alter(&$form, $form_state) {
   // Pre-populate the site name with the server name.
   $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
 }
@@ -18,20 +18,19 @@ function pantheonprofile_form_install_configure_form_alter(&$form, $form_state) 
   * Implementing the hook_install_tasks()*
   */
 
-function Pantheonprofile_install_tasks(&$install_state) {
+function pantheonsite_install_tasks(&$install_state) {
  $tasks = array();
- $tasks['Pantheonprofile_default_content'] = array();
+ $tasks['pantheonsite_default_user'] = array();
  return $tasks;
 }
 
-function Pantheonprofile_default_content() {
-  $result = db_query("SELECT rid FROM {role} where name like :id",array(':id' => 'administrator'));
-   $admin_rid = $result->fetchField(0);
-   $u_roles = user_roles();
-   unset($u_roles[1]);
-   unset($u_roles[2]);
-   unset($u_roles[$admin_rid]);
-   foreach($u_roles as $key => $value) {
+function pantheonsite_default_user() {
+  $roles = user_roles();
+   $admin_user = variable_get('user_admin_role');
+   unset($roles[$admin_user]);
+   unset($roles[DRUPAL_ANONYMOUS_RID]);
+   unset($roles[DRUPAL_AUTHENTICATED_RID]);
+   foreach($roles as $key => $value) {
      $mail = 'test-' . $value . '@osseed.com';
      $new_user = array(
        'name' => $value,

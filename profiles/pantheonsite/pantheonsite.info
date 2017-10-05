@@ -1,6 +1,6 @@
 
-name = Custom-Pantheon
-description = This Profile Install  pre-configured integration for the Pantheon Platform
+name = Pantheon Site
+description = This is custom installation profile for pantheon.
 core = 7.x
 
 dependencies[] = block
@@ -25,4 +25,3 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 dependencies[] = pantheon_user
-dependencies[] = features
