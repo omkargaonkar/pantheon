@@ -1,4 +1,4 @@
-name = Pantheon
+name = pantheon
 description = This theme developed for pantheon site development.
 screenshot = images/screenshot.png
 
@@ -26,8 +26,9 @@ base theme = zurb_foundation
 ; CSS2.1 media types: http://www.w3.org/TR/CSS21/media.html#media-types
 ; CSS3 media queries: http://www.w3.org/TR/css3-mediaqueries/
 
-; For CSS users, load the STARTER.css file:
+; For CSS users, load the screen.css file:
 stylesheets[all][] = css/STARTER.css
+stylesheets[all][] = stylesheets/screen.css
 
 ; Block loading of foundation.min.css from the base theme. This file should either
 ; not exist or be blank in your subtheme. See https://drupal.org/node/263967

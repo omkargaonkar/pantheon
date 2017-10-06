@@ -66,3 +66,19 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 8, ../sass/screen.scss */
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 100% !important;
+}
+
+/* line 17, ../sass/screen.scss */
+#edit-submit {
+  width: 100%;
+  background: #EFD01B;
+}
