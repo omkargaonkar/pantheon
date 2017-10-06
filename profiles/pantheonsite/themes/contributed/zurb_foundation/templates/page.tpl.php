@@ -29,12 +29,12 @@
       <?php endif; ?>
       <!--/.top-bar -->
     <?php endif; ?>
-
+    <?php if ($linked_logo): print $linked_logo; endif; ?>
     <!-- Title, slogan and menu -->
     <?php if ($alt_header): ?>
       <section class="row <?php print $alt_header_classes; ?>">
 
-        <?php if ($linked_logo): print $linked_logo; endif; ?>
+
 
         <?php if ($site_name): ?>
           <?php if ($title): ?>
