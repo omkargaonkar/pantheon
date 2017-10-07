@@ -74,6 +74,8 @@ regions[footer_firstcolumn]  = Footer one
 regions[footer_secondcolumn] = Footer two
 regions[footer_thirdcolumn]  = Footer three
 regions[footer_fourthcolumn] = Footer four
+regions[footer_fifthcolumn] = Footer fifth
+regions[footer_sixcolumn] = Footer six
 regions[footer]              = Footer
 
 ; Various page elements output by the theme can be toggled on and off. The

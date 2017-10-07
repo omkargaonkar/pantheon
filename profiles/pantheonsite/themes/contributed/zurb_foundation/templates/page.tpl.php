@@ -178,7 +178,7 @@
     <!--/.triptych -->
   <?php endif; ?>
 
-  <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
+  <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn']) || !empty($page['footer_fifthcolumn']) || !empty($page['footer_sixcolumn'])): ?>
     <!--.footer-columns -->
     <section class="row l-footer-columns">
       <?php if (!empty($page['footer_firstcolumn'])): ?>
@@ -201,6 +201,18 @@
           <?php print render($page['footer_fourthcolumn']); ?>
         </div>
       <?php endif; ?>
+      <?php if (!empty($page['footer_fifthcolumn'])): ?>
+        <div class="footer-fifth medium-3 columns">
+          <?php print render($page['footer_fifthcolumn']); ?>
+        </div>
+      <?php endif; ?>
+      <?php if (!empty($page['footer_sixcolumn'])): ?>
+        <div class="footer-six medium-3 columns">
+          <?php print render($page['footer_sixcolumn']); ?>
+        </div>
+      <?php endif; ?>
+
+
     </section>
     <!--/.footer-columns-->
   <?php endif; ?>

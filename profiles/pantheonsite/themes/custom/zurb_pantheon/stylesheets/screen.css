@@ -112,3 +112,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 img.logo {
   height: 59px;
 }
+
+/* line 45, ../sass/screen.scss */
+footer.l-footer.panel.row {
+  background: #78868E;
+}
+
+/* line 49, ../sass/screen.scss */
+section.block.block-block.contextual-links-region.block-block-9 {
+  background-color: aquamarine;
+  background-image: url("/sites/default/files/images/background.jpg");
+  width: 60%;
+  height: 360px;
+}
+
+/* line 56, ../sass/screen.scss */
+section.block.block-block.contextual-links-region.block-block-10 {
+  background-color: #EFD01B;
+  height: 360px;
+}
+
+/* line 62, ../sass/screen.scss */
+.medium-3 {
+  width: 12% !important;
+}
+
+/* line 65, ../sass/screen.scss */
+.row.l-footer-columns {
+  background-color: #181D21;
+}
+
+/* line 68, ../sass/screen.scss */
+a {
+  color: #ffffff;
+}
+
+/* line 71, ../sass/screen.scss */
+li.first.last.leaf {
+  background: #EFD01B;
+  width: 12%;
+  height: 38px;
+}
+
+/* line 76, ../sass/screen.scss */
+.l-footer.panel.row {
+  text-align: center;
+}

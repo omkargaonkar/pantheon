@@ -34,6 +34,8 @@ regions[footer_firstcolumn]  = Footer one
 regions[footer_secondcolumn] = Footer two
 regions[footer_thirdcolumn]  = Footer three
 regions[footer_fourthcolumn] = Footer four
+regions[footer_fifthcolumn]  = Footer fifth
+regions[footer_sixcolumn]  = Footer six
 regions[footer]              = Footer
 
 ; Panel Layouts
@@ -72,4 +74,3 @@ version = "7.x-5.0-rc7"
 core = "7.x"
 project = "zurb_foundation"
 datestamp = "1505231049"
-
