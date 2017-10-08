@@ -158,3 +158,49 @@ li.first.last.leaf {
 .l-footer.panel.row {
   text-align: center;
 }
+
+/* line 80, ../sass/screen.scss */
+.tb-megamenu.tb-megamenu-main-menu {
+  margin-top: -62px;
+}
+
+/* line 85, ../sass/screen.scss */
+.tb-megamenu.tb-megamenu-main-menu {
+  padding-top: 22px;
+  margin: 0 25px 0 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 87px;
+  margin-top: -90px;
+  width: 1052px;
+  padding-left: 218px;
+  align-items: center;
+  margin-left: 230px !important;
+  justify-content: flex-end;
+}
+
+/* line 99, ../sass/screen.scss */
+.tb-megamenu {
+  background-color: #181D21;
+}
+
+/* line 103, ../sass/screen.scss */
+img.logo {
+  height: 87px;
+  width: 250px;
+}
+
+/* line 108, ../sass/screen.scss */
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
+  background-color: #181D21;
+}
+
+/* line 111, ../sass/screen.scss */
+.tb-megamenu .nav > li > a {
+  border-right: 0px solid #222 !important;
+}
+
+/* line 115, ../sass/screen.scss */
+.tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
+  background-color: #181D21 !important;
+}
