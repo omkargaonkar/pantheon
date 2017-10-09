@@ -51,7 +51,7 @@ section.block.block-block.contextual-links-region.block-block-10 {
   height: 360px;
 }
 .medium-3 {
-  width: 12% !important;
+  width: 210px !important;
 }
 .row.l-footer-columns {
   background-color: #181D21;
@@ -98,4 +98,22 @@ img.logo {
 }
 .tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
   background-color: #181D21 !important;
+}
+#user-register-form {
+  padding-left: 28%;
+  padding-right: 383px;
+}
+h2.block-title {
+  color: white;
+}
+.footer-six.medium-3.columns {
+    color: white;
+}
+li.tb-megamenu-item.level-1.mega.active.active-trail {
+background: #EFD01B !important;
+color: #000 !important;
+margin-left: 20px;
+}
+a:hover, a:focus {
+    color: #181D21;
 }
