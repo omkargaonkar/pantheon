@@ -20,6 +20,7 @@ scripts[] = js/vendor/modernizr.js
 scripts[] = js/foundation.min.js
 
 ; Regions are output in the page.tpl.php
+regions[top_bar]             = Topbar
 regions[header]              = Header
 regions[help]                = Help
 regions[highlighted]         = Highlighted

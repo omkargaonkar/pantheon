@@ -60,9 +60,11 @@ a {
   color: #ffffff;
 }
 li.first.last.leaf {
-  background: #EFD01B;
-  width: 12%;
-  height: 38px;
+    background: #EFD01B;
+    width: 12%;
+    border-color: black;
+    border: double;
+    height: 43px;
 }
 .l-footer.panel.row {
   text-align: center;
@@ -78,9 +80,9 @@ li.first.last.leaf {
   height: 87px;
   margin-top: -90px;
   width: 1255px;
-  padding-left: 218px;
+  padding-left: 356px;
   align-items: center;
-  margin-left: 230px !important;
+  margin-left: 15px !important;
   justify-content: flex-end;
 }
 .tb-megamenu {
@@ -99,10 +101,7 @@ img.logo {
 .tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
   background-color: #181D21 !important;
 }
-#user-register-form {
 
-  padding-right: 383px;
-}
 h2.block-title {
   color: white;
 }
@@ -124,6 +123,17 @@ a:hover, a:focus {
   background-image: url("/var/www/local.pantheon.com/sites/default/files/images/backgroundimg.jpg");
 }
 .panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
-    background: #F4CE41;
-    padding-left: 450px;
+    background: #EFD01B;
 }
+section.block.block-tb-megamenu.block-tb-megamenu-main-menu.header {
+    margin-left: 235px;
+    width: 85%;
+    background-color: #181D21;
+}
+h2.pane-title {
+    text-align: center;
+  }
+  button, .button {
+background-color: yellow !important;
+color: black;
+  }

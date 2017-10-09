@@ -151,20 +151,22 @@ a {
 li.first.last.leaf {
   background: #EFD01B;
   width: 12%;
-  height: 38px;
+  border-color: black;
+  border: double;
+  height: 43px;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .l-footer.panel.row {
   text-align: center;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .tb-megamenu.tb-megamenu-main-menu {
   margin-top: -62px;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .tb-megamenu.tb-megamenu-main-menu {
   padding-top: 22px;
   margin: 0 25px 0 0;
@@ -173,77 +175,89 @@ li.first.last.leaf {
   height: 87px;
   margin-top: -90px;
   width: 1255px;
-  padding-left: 218px;
+  padding-left: 356px;
   align-items: center;
-  margin-left: 230px !important;
+  margin-left: 15px !important;
   justify-content: flex-end;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .tb-megamenu {
   background-color: #181D21;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 img.logo {
   height: 87px;
   width: 250px;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
   background-color: #181D21;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .tb-megamenu .nav > li > a {
   border-right: 0px solid #222 !important;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
   background-color: #181D21 !important;
 }
 
-/* line 102, ../sass/screen.scss */
-#user-register-form {
-  padding-right: 383px;
-}
-
-/* line 106, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 h2.block-title {
   color: white;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .footer-six.medium-3.columns {
   color: white;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 li.tb-megamenu-item.level-1.mega.active.active-trail {
   background: #EFD01B !important;
   color: #000 !important;
   margin-left: 20px;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 a:hover, a:focus {
   color: #181D21;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .form-required {
   display: none !important;
 }
 
-/* line 123, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .panel-col-first.panel-panel {
   background-image: url("/var/www/local.pantheon.com/sites/default/files/images/backgroundimg.jpg");
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
-  background: #F4CE41;
-  padding-left: 450px;
+  background: #EFD01B;
+}
+
+/* line 128, ../sass/screen.scss */
+section.block.block-tb-megamenu.block-tb-megamenu-main-menu.header {
+  margin-left: 235px;
+  width: 85%;
+  background-color: #181D21;
+}
+
+/* line 133, ../sass/screen.scss */
+h2.pane-title {
+  text-align: center;
+}
+
+/* line 136, ../sass/screen.scss */
+button, .button {
+  background-color: yellow !important;
+  color: black;
 }

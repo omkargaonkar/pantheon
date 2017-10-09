@@ -201,18 +201,7 @@
           <?php print render($page['footer_fourthcolumn']); ?>
         </div>
       <?php endif; ?>
-      <?php if (!empty($page['footer_fifthcolumn'])): ?>
-        <div class="footer-fifth medium-3 columns">
-          <?php print render($page['footer_fifthcolumn']); ?>
-        </div>
-      <?php endif; ?>
-      <?php if (!empty($page['footer_sixcolumn'])): ?>
-        <div class="footer-six medium-3 columns">
-          <?php print render($page['footer_sixcolumn']); ?>
-        </div>
-      <?php endif; ?>
-
-
+      
     </section>
     <!--/.footer-columns-->
   <?php endif; ?>
