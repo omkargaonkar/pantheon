@@ -77,7 +77,7 @@ li.first.last.leaf {
   margin-left: 0px;
   height: 87px;
   margin-top: -90px;
-  width: 1052px;
+  width: 1255px;
   padding-left: 218px;
   align-items: center;
   margin-left: 230px !important;
@@ -100,7 +100,7 @@ img.logo {
   background-color: #181D21 !important;
 }
 #user-register-form {
-  padding-left: 28%;
+
   padding-right: 383px;
 }
 h2.block-title {
@@ -116,4 +116,14 @@ margin-left: 20px;
 }
 a:hover, a:focus {
     color: #181D21;
+}
+.form-required {
+    display: none !important;
+}
+.panel-col-first.panel-panel {
+  background-image: url("/var/www/local.pantheon.com/sites/default/files/images/backgroundimg.jpg");
+}
+.panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
+    background: #F4CE41;
+    padding-left: 450px;
 }

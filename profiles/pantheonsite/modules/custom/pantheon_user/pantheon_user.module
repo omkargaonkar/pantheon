@@ -9,12 +9,9 @@
  function zurb_pantheon_form_alter(&$form, &$form_state, $form_id) {
    switch($form_id) {
    case 'user_register_form': // the value we stole from the rendered form
-   $form['textbox'] = array(
-     '#type' => 'textbox',
-     '#title' => 'Last Name',
-     '#required' => TRUE,
-     '#weight' => 1,
-   );
+
+$form['account']['mail']['#title'] = t('Work email');
+$form['account']['mail']['#description'] = FALSE;
 
    $form['password'] = array(
     '#type' => 'password',

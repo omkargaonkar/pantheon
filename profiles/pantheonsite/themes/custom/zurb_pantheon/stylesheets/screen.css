@@ -172,7 +172,7 @@ li.first.last.leaf {
   margin-left: 0px;
   height: 87px;
   margin-top: -90px;
-  width: 1052px;
+  width: 1255px;
   padding-left: 218px;
   align-items: center;
   margin-left: 230px !important;
@@ -207,7 +207,6 @@ img.logo {
 
 /* line 102, ../sass/screen.scss */
 #user-register-form {
-  padding-left: 28%;
   padding-right: 383px;
 }
 
@@ -231,4 +230,20 @@ li.tb-megamenu-item.level-1.mega.active.active-trail {
 /* line 117, ../sass/screen.scss */
 a:hover, a:focus {
   color: #181D21;
+}
+
+/* line 120, ../sass/screen.scss */
+.form-required {
+  display: none !important;
+}
+
+/* line 123, ../sass/screen.scss */
+.panel-col-first.panel-panel {
+  background-image: url("/var/www/local.pantheon.com/sites/default/files/images/backgroundimg.jpg");
+}
+
+/* line 126, ../sass/screen.scss */
+.panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
+  background: #F4CE41;
+  padding-left: 450px;
 }
