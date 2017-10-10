@@ -12,6 +12,11 @@
 $form['account']['mail']['#title'] = t('Work email');
 $form['account']['mail']['#description'] = FALSE;
 
+   $form['field_first_name']['#prefix'] = '<div class="first_fname">';
+   $form['field_first_name']['#suffix'] = '</div>';
+   $form['field_last_name']['#prefix'] = '<div class="last_lname">';
+   $form['field_last_name']['#suffix'] = '</div><div class="clearfix"></div>';
+
    $form['password'] = array(
     '#type' => 'password',
     '#title' => t('Password'),

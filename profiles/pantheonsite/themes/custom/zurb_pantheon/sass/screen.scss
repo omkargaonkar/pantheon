@@ -23,16 +23,18 @@
   margin-left: 36%;
   padding-left: 5%;
   padding-top: 10%;
+  margin-top: -26%;
+  height: 100%;
+  margin-top: -70%;
+  padding-left: 260px;
+  padding-right: 151px;
+  height: 100%;
 }
 .panel-pane.pane-block.pane-block-3 {
   color: white;
 }
 .panel-2col-stacked.clearfix.panel-display {
   margin-top: 12%;
-}
-.panel-col-last.panel-panel {
-  margin-top: -26%;
-  height: 100%;
 }
 img.logo {
   height: 59px;
@@ -71,8 +73,6 @@ li.first.last.leaf {
 }
 .tb-megamenu.tb-megamenu-main-menu {
   margin-top: -62px;
-}
-.tb-megamenu.tb-megamenu-main-menu {
   padding-top: 22px;
   margin: 0 25px 0 0;
   margin-top: 0px;
@@ -80,7 +80,7 @@ li.first.last.leaf {
   height: 87px;
   margin-top: -90px;
   width: 1255px;
-  padding-left: 356px;
+  padding-left: 340px;
   align-items: center;
   margin-left: 15px !important;
   justify-content: flex-end;
@@ -122,9 +122,7 @@ a:hover, a:focus {
 .panel-col-first.panel-panel {
   background-image: url("/var/www/local.pantheon.com/sites/default/files/images/backgroundimg.jpg");
 }
-.panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
-    background: #EFD01B;
-}
+
 section.block.block-tb-megamenu.block-tb-megamenu-main-menu.header {
     margin-left: 235px;
     width: 85%;
@@ -137,3 +135,61 @@ h2.pane-title {
 background-color: yellow !important;
 color: black;
   }
+
+  .medium-3 {
+      width: 340px !important;
+  }
+    .footer-second.medium-3.columns {
+    margin-left: 40px;
+}
+
+.footer-fifth.medium-3.columns {
+    margin-left: -200px;
+}
+.footer-fourth.medium-3.columns {
+    margin-left: -200px;
+}
+.footer-third.medium-3.columns {
+    margin-left: -200px;
+}
+.footer-second.medium-3.columns {
+    margin-left: 18px;
+}
+section.block.block-menu.contextual-links-region.block-menu-menu-solutions {
+    float: right;
+    margin-top: -70px;
+}
+.panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
+    padding-left: 317px;
+    background: #EFD01B;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+footer-six.medium-3.columns {
+    margin-right: 200px;
+    margin-top: -71px;
+}
+.page-registration .panel-2col-stacked .panel-col-first .inside {
+      height: 1000px;
+}
+.panel-col-first.panel-panel {
+    margin-top: -180px;
+    width: 50%;
+}
+.panel-col-first.panel-panel {
+    margin-top: -180px;
+    width: 50%;
+    margin-left: -16px;
+}
+.first_fname  {
+   float:left;
+   width: 50%;
+ }
+ .last_lname {
+   float: right;
+   width: 50%;
+}
+ section.block.block-menu.block-menu-menu-solutions {
+   float: right;
+   margin-top: -80px;
+}

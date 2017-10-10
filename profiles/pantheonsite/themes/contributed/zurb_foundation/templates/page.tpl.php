@@ -29,12 +29,12 @@
       <?php endif; ?>
       <!--/.top-bar -->
     <?php endif; ?>
-    <?php if ($linked_logo): print $linked_logo; endif; ?>
+
     <!-- Title, slogan and menu -->
     <?php if ($alt_header): ?>
       <section class="row <?php print $alt_header_classes; ?>">
 
-
+        <?php if ($linked_logo): print $linked_logo; endif; ?>
 
         <?php if ($site_name): ?>
           <?php if ($title): ?>
@@ -178,7 +178,7 @@
     <!--/.triptych -->
   <?php endif; ?>
 
-  <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn']) || !empty($page['footer_fifthcolumn']) || !empty($page['footer_sixcolumn'])): ?>
+  <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
     <section class="row l-footer-columns">
       <?php if (!empty($page['footer_firstcolumn'])): ?>
@@ -201,7 +201,6 @@
           <?php print render($page['footer_fourthcolumn']); ?>
         </div>
       <?php endif; ?>
-      
     </section>
     <!--/.footer-columns-->
   <?php endif; ?>
