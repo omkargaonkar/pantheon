@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the form_block_registration feature.
+ */
+
+include_once 'form_block_registration.features.inc';
