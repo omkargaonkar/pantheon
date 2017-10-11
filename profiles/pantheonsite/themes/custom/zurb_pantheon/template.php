@@ -4,6 +4,8 @@
  * Implements template_preprocess_html().
  */
 function zurb_pantheon_preprocess_html(&$variables) {
+  drupal_add_css('https://fonts.googleapis.com/css?family=Fira+Sans',array(
+    'type' => 'external'));
 }
 
 /**

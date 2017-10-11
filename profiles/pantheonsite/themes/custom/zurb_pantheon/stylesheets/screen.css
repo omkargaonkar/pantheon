@@ -338,3 +338,11 @@ section.block.block-menu.block-menu-menu-solutions {
   float: right;
   margin-top: -80px;
 }
+
+/* line 196, ../sass/screen.scss */
+.pane-content h1 {
+  padding-top: 40px;
+  font-size: 36px;
+  font-weight: normal;
+  font-family: 'Fira Sans', sans-serif;
+}
