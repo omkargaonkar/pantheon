@@ -25,3 +25,4 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 dependencies[] = pantheon_user
+dependencies[] = module_subcribe

@@ -68,9 +68,9 @@ function pantheonsite_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-//  Enable some custom theme zurb_Pantheon.
+//  Enable some custom theme zurb_pantheon.
   $enable = array(
-    'theme_default' => 'zurb_Pantheon',
+    'theme_default' => 'zurb_pantheon',
     'admin_theme' => 'seven',
   );
   theme_enable($enable);
@@ -82,7 +82,7 @@ function pantheonsite_install() {
   // Disable the default Bartik theme
   theme_disable(array('bartik'));
   // Set custom theme as default.
-  $default_theme = variable_get('theme_default', 'zurb_Pantheon');
+  $default_theme = variable_get('theme_default', 'zurb_pantheon');
   $admin_theme = 'seven';
 
   // Enable some standard blocks.
