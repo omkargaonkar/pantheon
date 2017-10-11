@@ -213,6 +213,8 @@
       <?php endif; ?>
 
     </section>
+  }
+
     <!--/.footer-columns-->
   <?php endif; ?>
 

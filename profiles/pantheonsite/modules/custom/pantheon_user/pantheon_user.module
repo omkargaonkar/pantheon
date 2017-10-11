@@ -30,7 +30,7 @@ $form['account']['mail']['#description'] = FALSE;
   );
   $form['checkbox'] = array(
    '#type' => 'checkbox',
-   '#title' => '(additional DevOps tools for agency developers)
+   '#title' => '  Are you an agency? (additional DevOps tools for agency developers)
      By creating an account, you agree to our',
    '#weight' => 10, // Adjust so that you can place it whereever
    );
