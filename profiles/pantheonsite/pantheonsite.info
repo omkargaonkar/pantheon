@@ -27,3 +27,4 @@ dependencies[] = rdf
 dependencies[] = pantheon_user
 dependencies[] = module_subcribe
 dependencies[] = form_block_registration
+dependencies[] = zurb_pantheon_user_login
