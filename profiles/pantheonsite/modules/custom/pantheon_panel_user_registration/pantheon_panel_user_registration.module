@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the pantheon panel user registration feature.
+ */
+
+include_once 'pantheon_panel_user_registration.features.inc';
