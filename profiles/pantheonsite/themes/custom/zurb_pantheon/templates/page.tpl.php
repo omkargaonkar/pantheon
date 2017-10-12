@@ -15,6 +15,7 @@
           <li class="toggle-topbar menu-icon">
             <a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
         </ul>
+
         <section class="top-bar-section">
           <?php if ($top_bar_main_menu) : ?>
             <?php print $top_bar_main_menu; ?>
@@ -213,7 +214,6 @@
       <?php endif; ?>
 
     </section>
-  }
 
     <!--/.footer-columns-->
   <?php endif; ?>

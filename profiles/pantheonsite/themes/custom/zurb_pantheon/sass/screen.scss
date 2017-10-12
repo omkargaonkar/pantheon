@@ -18,7 +18,7 @@
           margin-left: 0px;
           height: 87px;
           margin-top: -90px;
-          width: 1255px;
+          width: 1265px;
           padding-left: 340px;
           align-items: center;
           margin-left: 15px !important;
@@ -41,7 +41,6 @@
   margin-bottom: 0;
   max-width: 100% !important;
 }
-
 .panel-col-last.panel-panel {
   width: 65%;
   margin-left: -16%;
@@ -95,18 +94,15 @@ li.first.last.leaf {
 .l-footer.panel.row {
   text-align: center;
 }
-
 .tb-megamenu {
   background-color: #181D21;
 }
 .tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
   background-color: #181D21;
 }
-
 .tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
   background-color: #181D21 !important;
 }
-
 h2.block-title {
   color: white;
 }
@@ -127,12 +123,11 @@ a:hover, a:focus {
 .panel-col-first.panel-panel {
   background-image: url("/var/www/local.pantheon.com/sites/default/files/images/backgroundimg.jpg");
 }
-
 section.block.block-tb-megamenu.block-tb-megamenu-main-menu.header {
     margin-left: 235px;
     width: 85%;
     background-color: #181D21;
-}
+  }
 h2.pane-title {
     text-align: center;
   }
@@ -166,7 +161,6 @@ section.block.block-menu.contextual-links-region.block-menu-menu-solutions {
 }
 .panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
     padding-left: 317px;
-    background: #EFD01B;
     padding-left: 350px;
     padding-right: 350px;
 }
@@ -263,4 +257,51 @@ span.hybridauth-icon.google.hybridauth-icon-hybridauth-32.hybridauth-google.hybr
   .pane-content h1{
     color: black;
   }
+}
+.panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
+    margin-top: -16px;
+    margin-left: -16px;
+    margin-bottom: -16px;
+  }
+  .block.block-menu.block-menu-menu-product {
+      margin-top: 54px;
+      margin-left: 9px;
+  }
+  .block.block-menu.block-menu-menu-company {
+    margin-top: 52px;
+    margin-left: 57px;
+}
+.block.block-menu.block-menu-menu-help {
+    margin-top: 52px;
+    margin-left: 80px;
+}
+.block.block-menu.block-menu-menu-popular {
+    margin-top: 52px;
+    margin-left: 126px;
+}
+img.imageblock-image {
+    margin-left: 31px;
+    margin-top: 47px;
+}
+section.block.block-menu.block-menu-menu-solutions {
+    float: right;
+    margin-top: -94px;
+    margin-left: -26px;
+}
+.social-media-links.platforms.inline.horizontal {
+    margin-top: 49px;
+}
+.pane-title {
+    margin-top: 130px;
+}
+.footer-six {
+margin-left: -47px;
+background-color: #313945;
+margin-right: 111px;
+}
+.panel-flexible-inside.panels-flexible-2-inside {
+    background: #EFD01B;
+    width: 1531px;
+    height: 544px;
+    margin-left: -16px;
 }
