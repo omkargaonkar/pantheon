@@ -19,20 +19,25 @@ function pantheonsite_form_install_configure_form_alter(&$form, $form_state) {
   */
 
 function pantheonsite_install_tasks(&$install_state) {
- $tasks = array();
- $tasks['pantheonsite_default_user'] = array();
- return $tasks;
+  $tasks = array();
+  $tasks['pantheonsite_default_user'] = array();
+  return $tasks;
 }
+
+/**
+  * Implementing the pantheonsite_default_user() create the custom user *
+  */
+
 
 function pantheonsite_default_user() {
   $roles = user_roles();
-   $admin_user = variable_get('user_admin_role');
-   unset($roles[$admin_user]);
-   unset($roles[DRUPAL_ANONYMOUS_RID]);
-   unset($roles[DRUPAL_AUTHENTICATED_RID]);
-   foreach($roles as $key => $value) {
-     $mail = 'test-' . $value . '@osseed.com';
-     $new_user = array(
+  $admin_user = variable_get('user_admin_role');
+  unset($roles[$admin_user]);
+  unset($roles[DRUPAL_ANONYMOUS_RID]);
+  unset($roles[DRUPAL_AUTHENTICATED_RID]);
+  foreach($roles as $key => $value) {
+    $mail = 'test-' . $value . '@osseed.com';
+    $new_user = array(
        'name' => $value,
        'mail' => strtolower($mail),
        'pass' => strtolower($value),
