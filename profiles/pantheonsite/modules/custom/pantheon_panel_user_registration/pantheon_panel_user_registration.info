@@ -19,7 +19,6 @@ dependencies[] = page_manager
 dependencies[] = panels
 dependencies[] = panels_node
 dependencies[] = pantheon_user
-dependencies[] = placeholder
 dependencies[] = social_media_links
 dependencies[] = tb_megamenu
 dependencies[] = text
