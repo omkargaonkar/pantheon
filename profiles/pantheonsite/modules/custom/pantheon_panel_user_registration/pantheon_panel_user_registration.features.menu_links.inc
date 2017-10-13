@@ -252,27 +252,6 @@ function pantheon_panel_user_registration_menu_default_menu_links() {
     'customized' => 0,
     'parent_identifier' => 'management_menus:admin/structure/menu',
   );
-  // Exported menu link: management_tb-mega-menu:admin/structure/tb-megamenu.
-  $menu_links['management_tb-mega-menu:admin/structure/tb-megamenu'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin/structure/tb-megamenu',
-    'router_path' => 'admin/structure/tb-megamenu',
-    'link_title' => 'TB Mega Menu',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'TB Mega Menu',
-      ),
-      'identifier' => 'management_tb-mega-menu:admin/structure/tb-megamenu',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'management_structure:admin/structure',
-  );
   // Exported menu link: menu-block_block:<front>.
   $menu_links['menu-block_block:<front>'] = array(
     'menu_name' => 'menu-block',
@@ -432,7 +411,6 @@ function pantheon_panel_user_registration_menu_default_menu_links() {
   t('PRODUCT');
   t('RESOURCES');
   t('SOLUTIONS');
-  t('TB Mega Menu');
 
   return $menu_links;
 }

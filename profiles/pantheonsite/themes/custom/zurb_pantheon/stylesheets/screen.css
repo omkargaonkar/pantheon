@@ -80,15 +80,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .html .page .l-header .block-tb-megamenu {
   background: #181D21;
   height: 79px;
+  margin-left: 100px;
 }
-/* line 27, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 .html .page .l-header .tb-megamenu {
   background-color: #181D21;
   padding-left: 15%;
   padding-top: 20px;
   padding: 13px 0px 0 210px;
 }
-/* line 32, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 .html .page .l-header .tb-megamenu .nav > .active > a,
 .html .page .l-header .tb-megamenu .tb-megamenu
 .active > a:hover,
@@ -96,62 +97,311 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .active > a:focus {
   background-color: #181D21;
 }
-/* line 40, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .html .page .l-header .row {
   width: 79%;
   float: right;
   background-color: #181D21;
 }
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .html .page .triptych-first img.imageblock-image {
   float: left;
 }
-/* line 50, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-solution {
-  float: left;
-}
-/* line 53, ../sass/screen.scss */
-.html .page .triptych-first .block-menu-menu-product {
+  margin-left: 3%;
+  height: 300px;
   float: left;
 }
 /* line 56, ../sass/screen.scss */
+.html .page .triptych-first .block-menu-menu-product {
+  float: left;
+  margin-left: 20px;
+}
+/* line 60, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-company {
   float: left;
+  margin-left: 20px;
 }
-/* line 59, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-help {
   float: left;
+  margin-left: 30px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-popular {
   float: left;
+  margin-left: 20px;
 }
-/* line 65, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
+.html .page .triptych-first .block-block-1 {
+  margin-right: 192px;
+  margin-top: 180px;
+}
+/* line 77, ../sass/screen.scss */
 .html .page .triptych-first .l-triptych.row {
   background-color: #181D21;
   color: white;
 }
-/* line 69, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .html .page .triptych-first .html .page .medium-4 {
   width: 62%;
 }
-/* line 74, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .html .page .medium-4 {
   width: 100%;
 }
-/* line 79, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .html .inside {
   height: 855px;
 }
-/* line 89, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .html .panel-col-first.panel-panel {
   margin-left: -15px;
 }
-/* line 102, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
+.html .panel-col-first.panel-panel .pane-block-5 {
+  color: white;
+  font-size: 200%;
+  margin-left: 31%;
+  margin-top: 50px;
+  font-family: 'Archivo Black', sans-serif;
+}
+/* line 105, ../sass/screen.scss */
+.html .panel-col-first.panel-panel img.imageblock-image {
+  margin-left: 29%;
+  margin-top: 3px;
+}
+/* line 109, ../sass/screen.scss */
+.html .panel-col-first.panel-panel .pane-block-6 {
+  margin-left: 40%;
+  color: #F9cc54;
+  margin-top: -46px;
+}
+/* line 114, ../sass/screen.scss */
+.html .panel-col-first.panel-panel .pane-block-7 {
+  margin-left: 40%;
+  color: #F9cc54;
+  margin-top: -46px;
+}
+/* line 119, ../sass/screen.scss */
+.html .panel-col-first.panel-panel .pane-block-8 {
+  margin-left: 40%;
+  color: #F9cc54;
+  margin-top: -42px;
+}
+/* line 124, ../sass/screen.scss */
+.html .panel-col-first.panel-panel .pane-imageblock-5 {
+  margin-top: 70px;
+}
+/* line 127, ../sass/screen.scss */
+.html .panel-col-first.panel-panel .pane-block-9 {
+  color: white;
+  margin-left: 40%;
+  margin-top: -49px;
+  font-size: 19px;
+}
+/* line 133, ../sass/screen.scss */
+.html .panel-col-first.panel-panel .pane-block-10 {
+  color: lightgoldenrodyellow;
+  margin-left: 40%;
+}
+/* line 137, ../sass/screen.scss */
+.html .panel-col-first.panel-panel .pane-block-11 {
+  font-size: 30px;
+  margin-left: 40%;
+  color: white;
+}
+/* line 144, ../sass/screen.scss */
+.html .panel-col-last.panel-panel {
+  padding-left: 3%;
+  padding-right: 10%;
+}
+/* line 148, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside .pane-block-12 {
+  font-size: 250%;
+  font-family: 'Cabin Condensed', sans-serif;
+}
+/* line 152, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside .pane-block-13 {
+  font-size: 125%;
+  margin-top: -30px;
+}
+/* line 156, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside .hybridauth-google-hybridauth-32 {
+  background: url("/profiles/pantheonsite/themes/custom/zurb_pantheon/images/googleconnect.png");
+  margin-top: 15px;
+  width: 542px;
+  height: 40px;
+}
+/* line 162, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside hr {
+  width: 48%;
+}
+/* line 165, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside h2.pane-title {
+  display: flex;
+}
+/* line 168, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside .first_fname {
+  width: 48%;
+  float: left;
+}
+/* line 172, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside .last_lname {
+  width: 48%;
+  float: RIGHT;
+}
+/* line 176, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside .checkboxclass {
+  font-weight: bold;
+}
+/* line 179, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside .button.secondary {
+  background-color: yellow;
+  border-color: white;
+  color: #333333;
+  width: 100%;
+}
+/* line 185, ../sass/screen.scss */
+.html .panel-col-last.panel-panel .inside .button.secondary:hover,
+.html .panel-col-last.panel-panel .inside .button.secondary:focus {
+  background-color: black;
+}
+/* line 192, ../sass/screen.scss */
+.html .panel-flexible.panels-flexible-2.clearfix {
+  background-color: #F4CE41;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 10%;
+  height: 630px;
+}
+/* line 200, ../sass/screen.scss */
+.html .panel-flexible.panels-flexible-2.clearfix button#edit-submit {
+  margin-left: 32%;
+}
+/* line 203, ../sass/screen.scss */
+.html .panel-flexible.panels-flexible-2.clearfix h2.pane-title {
+  font-size: 160%;
+  font-weight: 600;
+  text-align: center;
+}
+/* line 210, ../sass/screen.scss */
+.html section.l-triptych.row {
+  background: #333C4C;
+}
+/* line 214, ../sass/screen.scss */
+.html .l-triptych .medium-4.columns {
+  background: #1E2326;
+  width: 62%;
+  color: white;
+}
+/* line 219, ../sass/screen.scss */
+.html .l-triptych h2.block-title {
+  color: white;
+  margin-bottom: 20px;
+}
+/* line 224, ../sass/screen.scss */
+.html .l-triptych .menu a {
+  color: white;
+}
+/* line 227, ../sass/screen.scss */
+.html .l-triptych .menu a:hover {
+  color: #EFD01B;
+}
+/* line 233, ../sass/screen.scss */
+.html .form-item.form-type-textfield.form-item-email {
+  width: 44%;
+  float: left;
+  margin-right: 20px;
+}
+/* line 238, ../sass/screen.scss */
+.html button#edit-submit--2 {
+  height: -11px;
+  margin-top: 15px;
+  height: 39px;
+  background: #F4CE41;
+  color: black;
+}
+/* line 246, ../sass/screen.scss */
+.html section.block.block-imageblock.block-imageblock-1 {
+  margin-left: 10%;
+  margin-top: 3%;
+}
+/* line 249, ../sass/screen.scss */
+.html section.block.block-imageblock.block-imageblock-1 h2.block-title {
+  color: white;
+}
+/* line 253, ../sass/screen.scss */
+.html .medium-3 {
+  width: 37% !important;
+  float: right;
+  margin-top: -300px;
+}
+/* line 261, ../sass/screen.scss */
+.html .l-footer .footer block-menu-menu-contact-sales {
+  width: 11%;
+  height: 40px;
+  background: #F4cE41;
+}
+/* line 272, ../sass/screen.scss */
 .html .medium-3 {
   width: 33%;
 }
-/* line 106, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .html .row {
   max-width: 100% !important;
+}
+/* line 279, ../sass/screen.scss */
+.html .inside.panels-flexible-region-inside.panels-flexible-region-2-top-inside.panels-flexible-region-inside-first.panels-flexible-region-inside-last {
+  height: 0;
+}
+
+/* line 284, ../sass/screen.scss */
+.html button#edit-submit--2 {
+  height: 38px;
+  background: #F4CE41;
+  color: black;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 296, ../sass/screen.scss */
+.block-social-media-links-social-media-links {
+  float: left;
+}
+
+/* line 299, ../sass/screen.scss */
+.block-menu-menu-pantheon-blog- {
+  height: 36px;
+  padding-top: 11px;
+  padding-left: 295px;
+  width: 92%;
+  font-weight: 600;
+}
+/* line 305, ../sass/screen.scss */
+.block-menu-menu-pantheon-blog- a.active {
+  color: white;
+}
+/* line 308, ../sass/screen.scss */
+.block-menu-menu-pantheon-blog- a :hover {
+  color: red;
+}
+
+/* line 312, ../sass/screen.scss */
+.block-block-2 {
+  margin-top: 41px;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 27px;
+  size: left;
+}
+
+/* line 319, ../sass/screen.scss */
+.block-block-3 {
+  margin-bottom: 20px;
+  color: white;
 }

@@ -4,11 +4,11 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
- .html {
-   //class first
-   .skip-link {
+.html {
+  //class first
+  .skip-link {
 
-   }
+  }
    //class second
    .page
    {
@@ -23,90 +23,300 @@
        .block-tb-megamenu {
          background: #181D21;
          height: 79px;
+        margin-left: 100px;
        }
-       .tb-megamenu {
-            background-color: #181D21;
-            padding-left: 15%;
-            padding-top: 20px;
-            padding: 13px 0px 0 210px;
-            .nav > .active > a,
-              .tb-megamenu
-                .active > a:hover,
-                  .tb-megamenu .nav >
-                    .active > a:focus {
-                     background-color: #181D21;
-                   }
-        }
-       .row {
-         width: 79%;
-         float: right;
-         background-color: #181D21;
-       }
-     }
-     .triptych-first{
-       img.imageblock-image {
-              float: left;
-            }
-            .block-menu-menu-solution {
-              float: left;
-            }
-            .block-menu-menu-product {
-                float: left;
-            }
-            .block-menu-menu-company {
-                float: left;
-            }
-            .block-menu-menu-help {
-                float: left;
-            }
-            .block-menu-menu-popular {
-                float: left;
-            }
-            .l-triptych.row {
-              background-color: #181D21;
-              color: white;
-            }
-            .html .page .medium-4 {
-              width: 62%;
-            }
-     }
-
-           .medium-4
-           {
-             width: 100%;
+    .tb-megamenu {
+      background-color: #181D21;
+      padding-left: 15%;
+      padding-top: 20px;
+      padding: 13px 0px 0 210px;
+      .nav > .active > a,
+       .tb-megamenu
+        .active > a:hover,
+         .tb-megamenu .nav >
+           .active > a:focus {
+             background-color: #181D21;
            }
         }
-        .inside {
-        height: 855px;
-        .center-wrapper {
-
-
-        }
-
-      }
-
-      // panel left-registration
-      .panel-col-first.panel-panel {
-        margin-left: -15px;
-        .pane-block-5 {
-          color: white;
-        }
-      }
-      //panel right-registration
-      .panel-col-last.panel-panel {
-
-      }
-
-
-
-   //class third
-   .admin-menu-site-local-pantheon-com {
-   }
-    .medium-3 {
-        width: 33%;
+    .row {
+      width: 79%;
+      float: right;
+      background-color: #181D21;
     }
-   //extra class
-   .row {
-         max-width: 100% !important;
+  }
+    .triptych-first {
+      img.imageblock-image {
+        float: left;
+      }
+    .block-menu-menu-solution {
+      margin-left: 3%;
+      height: 300px;
+      float: left;
+    }
+    .block-menu-menu-product {
+      float: left;
+      margin-left: 20px;
+    }
+    .block-menu-menu-company {
+      float: left;
+      margin-left: 20px;
+    }
+    .block-menu-menu-help {
+      float: left;
+      margin-left: 30px;
+    }
+    .block-menu-menu-popular {
+      float: left;
+      margin-left: 20px;
+    }
+    .block-block-1
+    {
+    margin-right: 192px;
+    margin-top: 180px;
+    }
+    .l-triptych.row {
+      background-color: #181D21;
+      color: white;
+    }
+    .html .page .medium-4 {
+      width: 62%;
+    }
+  }
+    .medium-4 {
+      width: 100%;
+    }
+  }
+  .inside {
+    height: 855px;
+    .center-wrapper {
+
+    }
+  }
+  // panel left-registration
+  .panel-col-first.panel-panel {
+    margin-left: -15px;
+    .pane-block-5 {
+      color: white;
+      font-size: 200%;
+      margin-left: 31%;
+      margin-top: 50px;
+      font-family: 'Archivo Black', sans-serif;
+    }
+    img.imageblock-image {
+      margin-left: 29%;
+      margin-top: 3px;
+    }
+    .pane-block-6 {
+      margin-left: 40%;
+      color: #F9cc54;
+      margin-top: -46px;
+    }
+    .pane-block-7 {
+      margin-left: 40%;
+      color: #F9cc54;
+      margin-top: -46px;
+    }
+    .pane-block-8 {
+      margin-left: 40%;
+      color: #F9cc54;
+      margin-top: -42px;
+    }
+    .pane-imageblock-5 {
+      margin-top: 70px;
+    }
+    .pane-block-9 {
+      color: white;
+      margin-left: 40%;
+      margin-top: -49px;
+      font-size: 19px;
+    }
+    .pane-block-10  {
+      color: lightgoldenrodyellow;
+      margin-left: 40%;
+    }
+    .pane-block-11 {
+      font-size: 30px;
+      margin-left: 40%;
+      color: white;
+    }
+  }
+  //panel right-registration
+  .panel-col-last.panel-panel {
+    padding-left: 3%;
+    padding-right: 10%;
+    .inside {
+      .pane-block-12 {
+        font-size: 250%;
+        font-family: 'Cabin Condensed', sans-serif;
+      }
+      .pane-block-13 {
+        font-size: 125%;
+        margin-top: -30px;
+      }
+      .hybridauth-google-hybridauth-32 {
+        background: url('/profiles/pantheonsite/themes/custom/zurb_pantheon/images/googleconnect.png');
+        margin-top: 15px;
+        width: 542px;
+        height: 40px;
+      }
+      hr {
+        width: 48%;
+      }
+      h2.pane-title {
+        display: flex;
+      }
+      .first_fname {
+        width: 48%;
+        float: left;
+      }
+      .last_lname {
+        width: 48%;
+        float: RIGHT;
+      }
+      .checkboxclass {
+        font-weight: bold;
+      }
+      .button.secondary {
+        background-color: yellow;
+        border-color: white;
+        color: #333333;
+        width: 100%;
+      }
+      .button.secondary:hover,
+      .button.secondary:focus {
+        background-color: black;
+      }
+    }
+  }
+// user_registration panel
+.panel-flexible.panels-flexible-2.clearfix {
+  background-color: #F4CE41;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 10%;
+  height: 630px;
+   button#edit-submit {
+     margin-left: 32%;
+   }
+   h2.pane-title {
+     font-size: 160%;
+     font-weight: 600;
+     text-align: center;
    }
  }
+//fotter one region
+section.l-triptych.row {
+  background: #333C4C;
+}
+.l-triptych {
+  .medium-4.columns {
+    background: #1E2326;
+    width: 62%;
+    color: white;
+  }
+  h2.block-title {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .menu {
+    a {
+      color: white;
+    }
+    a:hover {
+      color: #EFD01B;
+    }
+  }
+}
+//footer six
+.form-item.form-type-textfield.form-item-email {
+  width: 44%;
+  float: left;
+  margin-right: 20px;
+}
+button#edit-submit--2 {
+  height: -11px;
+  margin-top: 15px;
+  height: 39px;
+  background: #F4CE41;
+  color: black;
+}
+//fotter region
+section.block.block-imageblock.block-imageblock-1 {
+  margin-left: 10%;
+  margin-top: 3%;
+  h2.block-title {
+    color: white;
+  }
+}
+.medium-3 {
+  width: 37% !important;
+  float: right;
+  margin-top: -300px;
+}
+//fotter
+.l-footer{
+  .footer{
+    block-menu-menu-contact-sales {
+      width: 11%;
+      height: 40px;
+      background: #F4cE41;
+    }
+  }
+}
+//class third
+.admin-menu-site-local-pantheon-com {
+
+}
+.medium-3 {
+  width: 33%;
+}
+//extra class
+.row {
+   max-width: 100% !important;
+ }
+ .inside.panels-flexible-region-inside.panels-flexible-region-2-top-inside.panels-flexible-region-inside-first.panels-flexible-region-inside-last {
+    height: 0;
+ }
+}
+//subscribe module
+ .html button#edit-submit--2 {
+   height: 38px;
+   background: #F4CE41;
+   color: black;
+   margin-top: 15px;
+   text-transform: uppercase;
+   font-weight: bold;
+ }
+
+
+
+
+ .block-social-media-links-social-media-links {
+     float: left;
+ }
+ .block-menu-menu-pantheon-blog- {
+    height: 36px;
+    padding-top: 11px;
+    padding-left: 295px;
+    width: 92%;
+    font-weight: 600;
+    a.active {
+      color: white;
+    }
+    a :hover,{
+    color: red;
+}
+}
+.block-block-2 {
+    margin-top: 41px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 27px;
+    size: left;
+}
+.block-block-3 {
+    margin-bottom: 20px;
+    color: white;
+}

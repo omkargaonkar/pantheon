@@ -17,6 +17,8 @@ $form['account']['mail']['#description'] = FALSE;
    $form['field_last_name']['#prefix'] = '<div class="last_lname">';
    $form['field_last_name']['#suffix'] = '</div><div class="clearfix"></div>';
 
+
+
    $form['password'] = array(
     '#type' => 'password',
     '#title' => t('Password'),
@@ -30,8 +32,8 @@ $form['account']['mail']['#description'] = FALSE;
   );
   $form['checkbox'] = array(
    '#type' => 'checkbox',
-   '#title' => '  Are you an agency? (additional DevOps tools for agency developers)
-     By creating an account, you agree to our',
+   '#title' => '<span class="checkboxclass">Are you an agency?</span>(additional DevOps tools for agency developers)
+     By creating an account, you agree to our <a href="#">Terms of service</a>',
    '#weight' => 10, // Adjust so that you can place it whereever
    );
 

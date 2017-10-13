@@ -55,7 +55,6 @@ features[menu_links][] = management_popular:admin/structure/menu/manage/menu-pop
 features[menu_links][] = management_product:admin/structure/menu/manage/menu-product
 features[menu_links][] = management_resources:admin/structure/menu/manage/menu-resources
 features[menu_links][] = management_solutions:admin/structure/menu/manage/menu-solutions
-features[menu_links][] = management_tb-mega-menu:admin/structure/tb-megamenu
 features[menu_links][] = menu-block_block:<front>
 features[menu_links][] = menu-company_about:<front>
 features[menu_links][] = menu-company_careers:<front>

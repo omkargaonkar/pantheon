@@ -4,8 +4,11 @@
  * Implements template_preprocess_html().
  */
 function zurb_pantheon_preprocess_html(&$variables) {
-  drupal_add_css('https://fonts.googleapis.com/css?family=Fira+Sans',array(
+  drupal_add_css('https://fonts.googleapis.com/css?family=Cabin+Condensed',array(
     'type' => 'external'));
+
+    drupal_add_css('https://fonts.googleapis.com/css?family=Archivo+Black',array(
+      'type' => 'external'));
 }
 
 /**
