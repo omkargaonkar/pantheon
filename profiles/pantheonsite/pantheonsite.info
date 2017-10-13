@@ -27,3 +27,4 @@ dependencies[] = rdf
 dependencies[] = pantheon_user
 dependencies[] = module_subcribe
 dependencies[] = pantheon_panel_user_registration
+dependencies[] = pantheonsite_dependencies
