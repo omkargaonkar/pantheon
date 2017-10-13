@@ -19,3 +19,7 @@ function zurb_pantheon_preprocess_page(&$variables) {
  */
 function zurb_pantheon_preprocess_node(&$variables) {
 }
+function zurb_pantheon_preprocess_breadcrumb(&$variables)
+{
+  array_pop($variables['breadcrumb']);
+}

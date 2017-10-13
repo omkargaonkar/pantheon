@@ -4,304 +4,86 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-.html {
-  .l-header {
-    img.logo {
-          height: 87px;
-          width: 250px;
-        }
-        .tb-megamenu.tb-megamenu-main-menu {
-          margin-top: -62px;
-          padding-top: 22px;
-          margin: 0 25px 0 0;
-          margin-top: 0px;
-          margin-left: 0px;
-          height: 87px;
-          margin-top: -90px;
-          width: 1265px;
-          padding-left: 340px;
-          align-items: center;
-          margin-left: 15px !important;
-          justify-content: flex-end;
-        }
-  .tb-megamenu .nav > li > a {
-    border-right: 0px solid #222 !important;
-  }
-  }
-}
-#edit-submit {
-  width: 100%;
-  background: #EFD01B;
-}
-.row {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 100% !important;
-}
-.panel-col-last.panel-panel {
-  width: 65%;
-  margin-left: -16%;
-  margin-left: 36%;
-  padding-left: 5%;
-  padding-top: 10%;
-  height: 100%;
-  margin-top: -77%;
-  padding-left: 260px;
-  padding-right: 151px;
-  height: 100%;
-}
-.panel-pane.pane-block.pane-block-3 {
-  color: white;
-}
-.panel-2col-stacked.clearfix.panel-display {
-  margin-top: 12%;
-}
-img.logo {
-  height: 59px;
-}
-footer.l-footer.panel.row {
-  background: #78868E;
-}
-section.block.block-block.contextual-links-region.block-block-9 {
-  background-color: aquamarine;
-  background-image: url("/sites/default/files/images/background.jpg");
-  width: 60%;
-  height: 360px;
-}
-section.block.block-block.contextual-links-region.block-block-10 {
-  background-color: #EFD01B;
-  height: 360px;
-}
-.medium-3 {
-  width: 210px !important;
-}
-.row.l-footer-columns {
-  background-color: #181D21;
-}
-a {
-  color: #ffffff;
-}
-li.first.last.leaf {
-    background: #EFD01B;
-    width: 12%;
-    border-color: black;
-    border: double;
-    height: 43px;
-}
-.l-footer.panel.row {
-  text-align: center;
-}
-.tb-megamenu {
-  background-color: #181D21;
-}
-.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
-  background-color: #181D21;
-}
-.tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
-  background-color: #181D21 !important;
-}
-h2.block-title {
-  color: white;
-}
-.footer-six.medium-3.columns {
-    color: white;
-}
-li.tb-megamenu-item.level-1.mega.active.active-trail {
-background: #EFD01B !important;
-color: #000 !important;
-margin-left: 20px;
-}
-a:hover, a:focus {
-    color: #181D21;
-}
-.form-required {
-    display: none !important;
-}
-.panel-col-first.panel-panel {
-  background-image: url("/var/www/local.pantheon.com/sites/default/files/images/backgroundimg.jpg");
-}
-section.block.block-tb-megamenu.block-tb-megamenu-main-menu.header {
-    margin-left: 235px;
-    width: 85%;
-    background-color: #181D21;
-  }
-h2.pane-title {
-    text-align: center;
-  }
-  button, .button {
-background-color: yellow !important;
-color: black;
-  }
+ .html {
+   //class first
+   .skip-link {
 
-  .medium-3 {
-      width: 340px !important;
-  }
-    .footer-second.medium-3.columns {
-    margin-left: 40px;
-}
+   }
+   //class second
+   .page
+   {
+    .logo {
+        a img {
+            width: 20%;
+            border: none;
+          }
+        }
+    .l-header {
+      background: #181D21;
+       .block-tb-megamenu {
+         background: #181D21;
+         height: 79px;
+       }
+       .tb-megamenu {
+            background-color: #181D21;
+            padding-left: 15%;
+            padding-top: 20px;
+            padding: 13px 0px 0 210px;
+            .nav > .active > a, .tb-megamenu .active > a:hover,.tb-megamenu .nav >
+                    .active > a:focus {
+                     background-color: #181D21;
+                   }
+        }
+       .row {
+         width: 79%;
+         float: right;
+         background-color: #181D21;
+       }
+     }
+     .triptych-first{
+       img.imageblock-image {
+              float: left;
+            }
+            .block-menu-menu-solution {
+              float: left;
+            }
+            .block-menu-menu-product {
+                float: left;
+            }
+            .block-menu-menu-company {
+                float: left;
+            }
+            .block-menu-menu-help {
+                float: left;
+            }
+            .block-menu-menu-popular {
+                float: left;
+            }
+            .l-triptych.row {
+              background-color: #181D21;
+              color: white;
+            }
+            .html .page .medium-4 {
+              width: 62%;
+            }
+     }
 
-.footer-fifth.medium-3.columns {
-    margin-left: -200px;
-}
-.footer-fourth.medium-3.columns {
-    margin-left: -200px;
-}
-.footer-third.medium-3.columns {
-    margin-left: -200px;
-}
-.footer-second.medium-3.columns {
-    margin-left: 18px;
-}
-section.block.block-menu.contextual-links-region.block-menu-menu-solutions {
-    float: right;
-    margin-top: -70px;
-}
-.panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
-    padding-left: 317px;
-    padding-left: 350px;
-    padding-right: 350px;
-}
-footer-six.medium-3.columns {
-    margin-right: 200px;
-    margin-top: -71px;
-}
-.page-registration .panel-2col-stacked .panel-col-first .inside {
-      height: 1000px;
-}
-.panel-col-first.panel-panel {
-    margin-top: -180px;
-    width: 50%;
-}
-.panel-col-first.panel-panel {
-    margin-top: -180px;
-    width: 50%;
-    margin-left: -16px;
-}
-.first_fname  {
-   float:left;
-   width: 50%;
+           .medium-4
+           {
+             width: 100%;
+           }
+        }
+        .inside {
+        height: 855px;
+      }
+   //class third
+   .admin-menu-site-local-pantheon-com {
+   }
+    .medium-3 {
+        width: 33%;
+    }
+   //extra class
+   .row {
+         max-width: 100% !important;
+   }
  }
- .last_lname {
-   float: right;
-   width: 50%;
-}
- section.block.block-menu.block-menu-menu-solutions {
-   float: right;
-   margin-top: -80px;
-}
-.pane-content h1{
-    padding-top: 40px;
-        font-size: 36px;
-        font-weight: normal;
-    font-family: 'Fira Sans', sans-serif;
-}
-.panel-pane.pane-block.pane-block-3 {
-    float: right;
-    margin-right: 31%;
-    color: #fbf5f5;
-}
-.form-item.form-type-textfield.form-item-field-first-name-und-0-value {
-    padding-right: 20px;
-}
-.form-item.form-type-textfield.form-item-field-last-name-und-0-value {
-    /* padding-left: 20px; */
-}
-.panel-pane.pane-block.pane-block-2 {
-    margin-left: 200px;
-}
-img.imageblock-image {
-    margin-left: 200px;
-}
-.panel-pane.pane-block.pane-block-3 {
-    float: right;
-    margin-right: 31%;
-    margin-top: -180px;
-    color: #fbf5f5;
-}
-.panel-pane.pane-block.pane-block-4 {
-    margin-left: 37%;
-    margin-top: -7%;
-    color: white;
-}
-
-.l-header-region h5 {
-    color: yellow;
-}
-.l-header-region h1 {
-    color: white;
-}
-
-.l-header-region .panel-col-last p {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 18px;
-}
-span.hybridauth-icon.google.hybridauth-icon-hybridauth-32.hybridauth-google.hybridauth-google-hybridauth-32 {
-    background-image:url('/profiles/pantheonsite/themes/custom/zurb_pantheon/images/googleconnect.png');
-}
-span.hybridauth-icon.google.hybridauth-icon-hybridauth-32.hybridauth-google.hybridauth-google-hybridauth-32 {
-    width: 522px;
-    height: 40px;
-    margin-left: 13px;
-    background-image: url(/profiles/pantheonsite/themes/custom/zurb_pantheon/images/googleconnect.png);
-}
-.rtejustify span{
-
-    font-size: 36px !important;
-    color: white !important;
-    margin-left: 37%;
-}
-.panel-col-last {
-  .pane-content h1{
-    color: black;
-  }
-}
-.panels-flexible-region.panels-flexible-region-2-bottom_region.panels-flexible-region-first.panels-flexible-region-last {
-    margin-top: -16px;
-    margin-left: -16px;
-    margin-bottom: -16px;
-  }
-  .block.block-menu.block-menu-menu-product {
-      margin-top: 54px;
-      margin-left: 9px;
-  }
-  .block.block-menu.block-menu-menu-company {
-    margin-top: 52px;
-    margin-left: 57px;
-}
-.block.block-menu.block-menu-menu-help {
-    margin-top: 52px;
-    margin-left: 80px;
-}
-.block.block-menu.block-menu-menu-popular {
-    margin-top: 52px;
-    margin-left: 126px;
-}
-img.imageblock-image {
-    margin-left: 31px;
-    margin-top: 47px;
-}
-section.block.block-menu.block-menu-menu-solutions {
-    float: right;
-    margin-top: -94px;
-    margin-left: -26px;
-}
-.social-media-links.platforms.inline.horizontal {
-    margin-top: 49px;
-}
-.pane-title {
-    margin-top: 130px;
-}
-.footer-six {
-margin-left: -47px;
-background-color: #313945;
-margin-right: 111px;
-}
-.panel-flexible-inside.panels-flexible-2-inside {
-    background: #EFD01B;
-    width: 1531px;
-    height: 544px;
-    margin-left: -16px;
-}
