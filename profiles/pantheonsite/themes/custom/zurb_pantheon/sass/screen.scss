@@ -29,7 +29,10 @@
             padding-left: 15%;
             padding-top: 20px;
             padding: 13px 0px 0 210px;
-            .nav > .active > a, .tb-megamenu .active > a:hover,.tb-megamenu .nav >
+            .nav > .active > a,
+              .tb-megamenu
+                .active > a:hover,
+                  .tb-megamenu .nav >
                     .active > a:focus {
                      background-color: #181D21;
                    }
@@ -75,7 +78,27 @@
         }
         .inside {
         height: 855px;
+        .center-wrapper {
+
+
+        }
+
       }
+
+      // panel left-registration
+      .panel-col-first.panel-panel {
+        margin-left: -15px;
+        .pane-block-5 {
+          color: white;
+        }
+      }
+      //panel right-registration
+      .panel-col-last.panel-panel {
+
+      }
+
+
+
    //class third
    .admin-menu-site-local-pantheon-com {
    }
