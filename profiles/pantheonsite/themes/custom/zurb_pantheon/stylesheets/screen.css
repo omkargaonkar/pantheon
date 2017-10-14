@@ -84,12 +84,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 28, ../sass/screen.scss */
 .html .page .l-header .tb-megamenu {
+  border-color: #1E2326;
   background-color: #181D21;
   padding-left: 15%;
   padding-top: 20px;
   padding: 13px 0px 0 210px;
 }
-/* line 33, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .html .page .l-header .tb-megamenu .nav > .active > a,
 .html .page .l-header .tb-megamenu .tb-megamenu
 .active > a:hover,
@@ -97,69 +98,76 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .active > a:focus {
   background-color: #181D21;
 }
-/* line 41, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .html .page .l-header .row {
   width: 79%;
   float: right;
   background-color: #181D21;
 }
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .html .page .triptych-first img.imageblock-image {
   float: left;
 }
-/* line 51, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-solution {
+  font-family: 'Quicksand', sans-serif;
   margin-left: 3%;
   height: 300px;
   float: left;
 }
-/* line 56, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-product {
+  font-family: 'Quicksand', sans-serif;
   float: left;
   margin-left: 20px;
 }
-/* line 60, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-company {
+  font-family: 'Quicksand', sans-serif;
   float: left;
   margin-left: 20px;
 }
-/* line 64, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-help {
+  font-family: 'Quicksand', sans-serif;
   float: left;
   margin-left: 30px;
 }
-/* line 68, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-popular {
+  font-family: 'Quicksand', sans-serif;
   float: left;
   margin-left: 20px;
 }
-/* line 72, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .html .page .triptych-first .block-block-1 {
+  font-family: 'Quicksand', sans-serif;
   margin-right: 192px;
   margin-top: 180px;
 }
-/* line 77, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .html .page .triptych-first .l-triptych.row {
   background-color: #181D21;
   color: white;
 }
-/* line 81, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .html .page .triptych-first .html .page .medium-4 {
   width: 62%;
+  font-family: 'Quicksand', sans-serif;
 }
-/* line 85, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .html .page .medium-4 {
   width: 100%;
 }
-/* line 89, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .html .inside {
   height: 855px;
 }
-/* line 96, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .html .panel-col-first.panel-panel {
   margin-left: -15px;
 }
-/* line 98, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-5 {
   color: white;
   font-size: 200%;
@@ -167,108 +175,108 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 50px;
   font-family: 'Archivo Black', sans-serif;
 }
-/* line 105, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .html .panel-col-first.panel-panel img.imageblock-image {
   margin-left: 29%;
   margin-top: 3px;
 }
-/* line 109, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-6 {
   margin-left: 40%;
   color: #F9cc54;
   margin-top: -46px;
 }
-/* line 114, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-7 {
   margin-left: 40%;
   color: #F9cc54;
   margin-top: -46px;
 }
-/* line 119, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-8 {
   margin-left: 40%;
   color: #F9cc54;
   margin-top: -42px;
 }
-/* line 124, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-imageblock-5 {
   margin-top: 70px;
 }
-/* line 127, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-9 {
   color: white;
   margin-left: 40%;
   margin-top: -49px;
   font-size: 19px;
 }
-/* line 133, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-10 {
   color: lightgoldenrodyellow;
   margin-left: 40%;
 }
-/* line 137, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-11 {
   font-size: 30px;
   margin-left: 40%;
   color: white;
 }
-/* line 144, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .html .panel-col-last.panel-panel {
   padding-left: 3%;
   padding-right: 10%;
 }
-/* line 148, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .pane-block-12 {
   font-size: 250%;
   font-family: 'Cabin Condensed', sans-serif;
 }
-/* line 152, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .pane-block-13 {
   font-size: 125%;
   margin-top: -30px;
 }
-/* line 156, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .hybridauth-google-hybridauth-32 {
   background: url("/profiles/pantheonsite/themes/custom/zurb_pantheon/images/googleconnect.png");
   margin-top: 15px;
   width: 542px;
   height: 40px;
 }
-/* line 162, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside hr {
   width: 48%;
 }
-/* line 165, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside h2.pane-title {
   display: flex;
 }
-/* line 168, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .first_fname {
   width: 48%;
   float: left;
 }
-/* line 172, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .last_lname {
   width: 48%;
   float: RIGHT;
 }
-/* line 176, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .checkboxclass {
   font-weight: bold;
 }
-/* line 179, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .button.secondary {
   background-color: yellow;
   border-color: white;
   color: #333333;
   width: 100%;
 }
-/* line 185, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .button.secondary:hover,
 .html .panel-col-last.panel-panel .inside .button.secondary:focus {
   background-color: black;
 }
-/* line 192, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .html .panel-flexible.panels-flexible-2.clearfix {
   background-color: #F4CE41;
   margin-left: -15px;
@@ -278,46 +286,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 10%;
   height: 630px;
 }
-/* line 200, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .html .panel-flexible.panels-flexible-2.clearfix button#edit-submit {
   margin-left: 32%;
 }
-/* line 203, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .html .panel-flexible.panels-flexible-2.clearfix h2.pane-title {
   font-size: 160%;
   font-weight: 600;
   text-align: center;
 }
-/* line 210, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .html section.l-triptych.row {
   background: #333C4C;
 }
-/* line 214, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .html .l-triptych .medium-4.columns {
   background: #1E2326;
   width: 62%;
   color: white;
 }
-/* line 219, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 .html .l-triptych h2.block-title {
   color: white;
   margin-bottom: 20px;
+  font-weight: bold;
 }
-/* line 224, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .html .l-triptych .menu a {
   color: white;
 }
-/* line 227, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .html .l-triptych .menu a:hover {
   color: #EFD01B;
 }
-/* line 233, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .html .form-item.form-type-textfield.form-item-email {
   width: 44%;
   float: left;
   margin-right: 20px;
 }
-/* line 238, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .html button#edit-submit--2 {
   height: -11px;
   margin-top: 15px;
@@ -325,41 +334,87 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #F4CE41;
   color: black;
 }
-/* line 246, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .html section.block.block-imageblock.block-imageblock-1 {
   margin-left: 10%;
   margin-top: 3%;
 }
-/* line 249, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .html section.block.block-imageblock.block-imageblock-1 h2.block-title {
   color: white;
 }
-/* line 253, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
+.html .footer-six.medium-3.columns {
+  height: 301px;
+}
+/* line 265, ../sass/screen.scss */
 .html .medium-3 {
   width: 37% !important;
   float: right;
   margin-top: -300px;
 }
-/* line 261, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .html .l-footer .footer block-menu-menu-contact-sales {
   width: 11%;
   height: 40px;
   background: #F4cE41;
 }
-/* line 272, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
+.html .l-footer a.active {
+  color: black;
+}
+/* line 282, ../sass/screen.scss */
+.html .l-footer li.first.last.leaf {
+  width: 12%;
+  float: left;
+  background: #F4CE41;
+  height: 45px;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+/* line 292, ../sass/screen.scss */
+.html .l-footer .footer.columns {
+  background: #76858D;
+  height: 64px;
+  padding-top: 10px;
+  margin-left: -21px;
+  width: 1523px;
+  padding-left: 0%;
+  margin-top: -19px;
+}
+/* line 300, ../sass/screen.scss */
+.html .l-footer .footer.columns p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+/* line 304, ../sass/screen.scss */
+.html .l-footer .footer.columns .block-block-4 {
+  margin-left: 200px;
+}
+/* line 309, ../sass/screen.scss */
+.html footer.l-footer.panel.row {
+  background: #76858D;
+  height: 68px;
+  margin-top: -1px;
+  margin-left: -1px;
+  padding-left: 40%;
+}
+/* line 320, ../sass/screen.scss */
 .html .medium-3 {
   width: 33%;
 }
-/* line 276, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 .html .row {
   max-width: 100% !important;
 }
-/* line 279, ../sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 .html .inside.panels-flexible-region-inside.panels-flexible-region-2-top-inside.panels-flexible-region-inside-first.panels-flexible-region-inside-last {
   height: 0;
 }
 
-/* line 284, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 .html button#edit-submit--2 {
   height: 38px;
   background: #F4CE41;
@@ -369,12 +424,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: bold;
 }
 
-/* line 296, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 .block-social-media-links-social-media-links {
   float: left;
 }
 
-/* line 299, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- {
   height: 36px;
   padding-top: 11px;
@@ -382,26 +437,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 92%;
   font-weight: 600;
 }
-/* line 305, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- a.active {
   color: white;
 }
-/* line 308, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- a :hover {
   color: red;
 }
 
-/* line 312, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .block-block-2 {
   margin-top: 41px;
   color: white;
   font-size: 22px;
   margin-bottom: 27px;
   size: left;
+  font-family: 'Quicksand', sans-serif;
 }
 
-/* line 319, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 .block-block-3 {
   margin-bottom: 20px;
   color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* line 370, ../sass/screen.scss */
+.tb-megamenu .nav > li > a {
+  border-right: 1px solid #222;
+  border-top: 0;
+  /* color: #fff; */
+  font-weight: bold;
+  padding: 15px 20px;
+  text-shadow: none;
+  background: #F4CE4E;
+  color: black;
+  margin-left: 5px;
 }

@@ -9,6 +9,9 @@ function zurb_pantheon_preprocess_html(&$variables) {
 
     drupal_add_css('https://fonts.googleapis.com/css?family=Archivo+Black',array(
       'type' => 'external'));
+
+      drupal_add_css('https://fonts.googleapis.com/css?family=Quicksand',array(
+        'type' => 'external'));
 }
 
 /**

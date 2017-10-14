@@ -26,6 +26,7 @@
         margin-left: 100px;
        }
     .tb-megamenu {
+      border-color: #1E2326;
       background-color: #181D21;
       padding-left: 15%;
       padding-top: 20px;
@@ -49,30 +50,36 @@
         float: left;
       }
     .block-menu-menu-solution {
+      font-family: 'Quicksand', sans-serif;
       margin-left: 3%;
       height: 300px;
       float: left;
     }
     .block-menu-menu-product {
+      font-family: 'Quicksand', sans-serif;
       float: left;
       margin-left: 20px;
     }
     .block-menu-menu-company {
+      font-family: 'Quicksand', sans-serif;
       float: left;
       margin-left: 20px;
     }
     .block-menu-menu-help {
+      font-family: 'Quicksand', sans-serif;
       float: left;
       margin-left: 30px;
     }
     .block-menu-menu-popular {
+      font-family: 'Quicksand', sans-serif;
       float: left;
       margin-left: 20px;
     }
     .block-block-1
     {
-    margin-right: 192px;
-    margin-top: 180px;
+      font-family: 'Quicksand', sans-serif;
+      margin-right: 192px;
+      margin-top: 180px;
     }
     .l-triptych.row {
       background-color: #181D21;
@@ -80,6 +87,7 @@
     }
     .html .page .medium-4 {
       width: 62%;
+      font-family: 'Quicksand', sans-serif;
     }
   }
     .medium-4 {
@@ -219,6 +227,7 @@ section.l-triptych.row {
   h2.block-title {
     color: white;
     margin-bottom: 20px;
+    font-weight: bold;
   }
   .menu {
     a {
@@ -250,6 +259,9 @@ section.block.block-imageblock.block-imageblock-1 {
     color: white;
   }
 }
+.footer-six.medium-3.columns {
+  height: 301px;
+}
 .medium-3 {
   width: 37% !important;
   float: right;
@@ -264,6 +276,42 @@ section.block.block-imageblock.block-imageblock-1 {
       background: #F4cE41;
     }
   }
+  a.active {
+    color: black;
+  }
+  li.first.last.leaf {
+    width: 12%;
+    float: left;
+    background: #F4CE41;
+    height: 45px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .footer.columns {
+    background: #76858D;
+    height: 64px;
+    padding-top: 10px;
+    margin-left: -21px;
+    width: 1523px;
+    padding-left: 0%;
+    margin-top: -19px;
+      p {
+      font-size: 17px;
+      margin-top: 10px;
+    }
+    .block-block-4 {
+    margin-left: 200px;
+  }
+  }
+}
+footer.l-footer.panel.row {
+  background: #76858D;
+  height: 68px;
+  margin-top: -1px;
+  margin-left: -1px;
+  padding-left: 40%;
 }
 //class third
 .admin-menu-site-local-pantheon-com {
@@ -289,10 +337,6 @@ section.block.block-imageblock.block-imageblock-1 {
    text-transform: uppercase;
    font-weight: bold;
  }
-
-
-
-
  .block-social-media-links-social-media-links {
      float: left;
  }
@@ -315,8 +359,22 @@ section.block.block-imageblock.block-imageblock-1 {
     font-size: 22px;
     margin-bottom: 27px;
     size: left;
+    font-family: 'Quicksand', sans-serif;
 }
 .block-block-3 {
     margin-bottom: 20px;
     color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.tb-megamenu .nav > li > a {
+    border-right: 1px solid #222;
+    border-top: 0;
+    /* color: #fff; */
+    font-weight: bold;
+    padding: 15px 20px;
+    text-shadow: none;
+    background: #F4CE4E;
+    color: black;
+    margin-left: 5px;
 }
