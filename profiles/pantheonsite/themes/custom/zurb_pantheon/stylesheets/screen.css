@@ -433,6 +433,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 349, ../sass/screen.scss */
+.l-messages .columns {
+  background: #181D21;
+}
+
+/* line 353, ../sass/screen.scss */
+.alert-box.alert {
+  background-color: white;
+  border-color: #181D21;
+  color: black;
+}
+
+/* line 359, ../sass/screen.scss */
 .html button#edit-submit--2 {
   height: 38px;
   background: #F4CE41;
@@ -442,12 +454,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: bold;
 }
 
-/* line 357, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 .block-social-media-links-social-media-links {
   float: left;
 }
 
-/* line 360, ../sass/screen.scss */
+/* line 370, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- {
   height: 36px;
   padding-top: 11px;
@@ -456,16 +468,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 600;
   font-family: 'Quicksand', sans-serif;
 }
-/* line 367, ../sass/screen.scss */
+/* line 377, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- a.active {
   color: white;
 }
-/* line 370, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- a :hover {
   color: red;
 }
 
-/* line 374, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 .block-block-2 {
   margin-top: 41px;
   color: white;
@@ -475,14 +487,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Quicksand', sans-serif;
 }
 
-/* line 382, ../sass/screen.scss */
+/* line 392, ../sass/screen.scss */
 .block-block-3 {
   margin-bottom: 20px;
   color: white;
   font-family: 'Quicksand', sans-serif;
 }
 
-/* line 388, ../sass/screen.scss */
+/* line 398, ../sass/screen.scss */
 .tb-megamenu .nav > li > a {
   border-right: 1px solid #222;
   border-top: 0;
@@ -496,21 +508,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Quicksand', sans-serif;
 }
 
-/* line 400, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 .tb-megamenu .nav > li > a:hover {
   font-family: 'Quicksand', sans-serif;
   background: white;
   color: black;
 }
 
-/* line 405, ../sass/screen.scss */
+/* line 415, ../sass/screen.scss */
 .tb-megamenu .nav > li.dropdown.open.active > a:hover {
   font-family: 'Quicksand', sans-serif;
   background: #181D21;
   color: #F4CE41;
 }
 
-/* line 410, ../sass/screen.scss */
+/* line 420, ../sass/screen.scss */
 form#user-register-form {
   font-family: sans-serif;
+}
+
+/* line 425, ../sass/screen.scss */
+.tb-megamenu-row row-fluid .tb-megamenu-column-inner mega-inner clearfix .tb-megamenu-item level-2 mega active active-trail {
+  background-image: none;
+  background-color: #000;
 }

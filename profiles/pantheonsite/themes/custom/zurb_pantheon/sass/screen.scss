@@ -345,6 +345,16 @@ footer.l-footer.panel.row {
     height: 0;
  }
 }
+.l-messages{
+  .columns {
+       background: #181D21;
+  }
+}
+.alert-box.alert {
+     background-color: white;
+    border-color: #181D21;
+    color: black;
+}
 //subscribe module
  .html button#edit-submit--2 {
    height: 38px;
@@ -409,4 +419,12 @@ footer.l-footer.panel.row {
 }
 form#user-register-form {
     font-family: sans-serif;
+}
+.tb-megamenu-row row-fluid {
+.tb-megamenu-column-inner mega-inner clearfix{
+  .tb-megamenu-item level-2 mega active active-trail {
+  background-image: none;
+  background-color: #000;
+    }
+  }
 }
