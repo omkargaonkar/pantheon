@@ -3,33 +3,26 @@
 
   <!--.l-header -->
   <header role="banner" class="l-header">
-
-    <?php if ($top_bar): ?>
-      <!--.top-bar -->
-      <?php if ($top_bar_classes): ?>
-        <div class="<?php print $top_bar_classes; ?>">
-      <?php endif; ?>
-      <nav class="top-bar" data-topbar <?php print $top_bar_options; ?>>
-        <ul class="title-area">
-          <li class="name"><h1><?php print $linked_site_name; ?></h1></li>
-          <li class="toggle-topbar menu-icon">
-            <a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-          <?php if ($top_bar_main_menu) : ?>
-            <?php print $top_bar_main_menu; ?>
+  <?php if(current_path() != 'registration'): ?>
+        <?php if ($top_bar): ?>
+          <!--.top-bar -->
+          <?php print render($page['top_bar']); ?>
+          <?php if ($top_bar_classes): ?>
+            <div class="<?php print $top_bar_classes; ?>">
           <?php endif; ?>
-          <?php if ($top_bar_secondary_menu) : ?>
-            <?php print $top_bar_secondary_menu; ?>
+          <nav class="top-bar" data-topbar <?php print $top_bar_options; ?>>
+            <ul class="title-area">
+              <li class="name"><h1><?php print $linked_site_name; ?></h1></li>
+              <li class="toggle-topbar menu-icon">
+                <a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
+            </ul>
+          </nav>
+          <?php if ($top_bar_classes): ?>
+            </div>
           <?php endif; ?>
-        </section>
-      </nav>
-      <?php if ($top_bar_classes): ?>
-        </div>
-      <?php endif; ?>
-      <!--/.top-bar -->
-    <?php endif; ?>
+          <!--/.top-bar -->
+        <?php endif; ?>
+  <?php endif; ?>        
     <?php if ($linked_logo): print $linked_logo; endif; ?>
     <!-- Title, slogan and menu -->
     <?php if ($alt_header): ?>
@@ -219,14 +212,15 @@
   <?php endif; ?>
 
   <!--.l-footer -->
+  <?php if(current_path() != 'registration'): ?>
   <footer class="l-footer panel row" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
       <div class="footer columns">
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>
-
-    <?php if ($site_name) : ?>
+  <?php endif; ?>
+  <?php if ($site_name) : ?>
       <div class="copyright columns">
         &copy; <?php print date('Y') . ' ' . $site_name . ' ' . t('All rights reserved.'); ?>
       </div>

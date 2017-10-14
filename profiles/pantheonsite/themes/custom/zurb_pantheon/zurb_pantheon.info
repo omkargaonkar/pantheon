@@ -60,7 +60,7 @@ scripts[] = js/app.min.js
 ; You'll use this variable in page.tpl.php:
 ;   <?php print render($page['header']); ?>
 
-regions[top_bar]              = Topbar
+regions[top_bar]             = Topbar
 regions[header]              = Header
 regions[help]                = Help
 regions[highlighted]         = Highlighted

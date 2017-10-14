@@ -77,12 +77,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #181D21;
 }
 /* line 23, ../sass/screen.scss */
+.html .page .l-header .first.last.leaf {
+  float: left;
+}
+/* line 25, ../sass/screen.scss */
+.html .page .l-header .first.last.leaf h2.block-title {
+  color: white;
+}
+/* line 30, ../sass/screen.scss */
 .html .page .l-header .block-tb-megamenu {
   background: #181D21;
   height: 79px;
   margin-left: 100px;
 }
-/* line 28, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .html .page .l-header .tb-megamenu {
   border-color: #1E2326;
   background-color: #181D21;
@@ -90,7 +98,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 20px;
   padding: 13px 0px 0 210px;
 }
-/* line 34, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .html .page .l-header .tb-megamenu .nav > .active > a,
 .html .page .l-header .tb-megamenu .tb-megamenu
 .active > a:hover,
@@ -98,76 +106,76 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .active > a:focus {
   background-color: #181D21;
 }
-/* line 42, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .html .page .l-header .row {
   width: 79%;
   float: right;
   background-color: #181D21;
 }
-/* line 49, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .html .page .triptych-first img.imageblock-image {
   float: left;
 }
-/* line 52, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-solution {
   font-family: 'Quicksand', sans-serif;
   margin-left: 3%;
   height: 300px;
   float: left;
 }
-/* line 58, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-product {
   font-family: 'Quicksand', sans-serif;
   float: left;
   margin-left: 20px;
 }
-/* line 63, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-company {
   font-family: 'Quicksand', sans-serif;
   float: left;
   margin-left: 20px;
 }
-/* line 68, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-help {
   font-family: 'Quicksand', sans-serif;
   float: left;
   margin-left: 30px;
 }
-/* line 73, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-popular {
   font-family: 'Quicksand', sans-serif;
   float: left;
   margin-left: 20px;
 }
-/* line 78, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .html .page .triptych-first .block-block-1 {
   font-family: 'Quicksand', sans-serif;
   margin-right: 192px;
   margin-top: 180px;
 }
-/* line 84, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .html .page .triptych-first .l-triptych.row {
   background-color: #181D21;
   color: white;
 }
-/* line 88, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .html .page .triptych-first .html .page .medium-4 {
   width: 62%;
   font-family: 'Quicksand', sans-serif;
 }
-/* line 93, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .html .page .medium-4 {
   width: 100%;
 }
-/* line 97, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .html .inside {
   height: 855px;
 }
-/* line 104, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .html .panel-col-first.panel-panel {
   margin-left: -15px;
 }
-/* line 106, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-5 {
   color: white;
   font-size: 200%;
@@ -175,108 +183,116 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 50px;
   font-family: 'Archivo Black', sans-serif;
 }
-/* line 113, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 .html .panel-col-first.panel-panel img.imageblock-image {
   margin-left: 29%;
   margin-top: 3px;
 }
-/* line 117, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-6 {
   margin-left: 40%;
   color: #F9cc54;
   margin-top: -46px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
 }
-/* line 122, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-7 {
   margin-left: 40%;
   color: #F9cc54;
   margin-top: -46px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
 }
-/* line 127, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-8 {
   margin-left: 40%;
   color: #F9cc54;
   margin-top: -42px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
 }
-/* line 132, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-imageblock-5 {
   margin-top: 70px;
 }
-/* line 135, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-9 {
   color: white;
   margin-left: 40%;
   margin-top: -49px;
   font-size: 19px;
 }
-/* line 141, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-10 {
   color: lightgoldenrodyellow;
   margin-left: 40%;
 }
-/* line 145, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .html .panel-col-first.panel-panel .pane-block-11 {
   font-size: 30px;
   margin-left: 40%;
   color: white;
+  font-family: 'Quicksand', sans-serif;
 }
-/* line 152, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .html .panel-col-last.panel-panel {
   padding-left: 3%;
   padding-right: 10%;
 }
-/* line 156, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .pane-block-12 {
   font-size: 250%;
   font-family: 'Cabin Condensed', sans-serif;
 }
-/* line 160, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .pane-block-13 {
-  font-size: 125%;
+  font-size: 103%;
   margin-top: -30px;
+  font-family: 'Quicksand', sans-serif;
 }
-/* line 164, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .hybridauth-google-hybridauth-32 {
   background: url("/profiles/pantheonsite/themes/custom/zurb_pantheon/images/googleconnect.png");
   margin-top: 15px;
   width: 542px;
   height: 40px;
 }
-/* line 170, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside hr {
   width: 48%;
 }
-/* line 173, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside h2.pane-title {
   display: flex;
 }
-/* line 176, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .first_fname {
   width: 48%;
   float: left;
 }
-/* line 180, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .last_lname {
   width: 48%;
   float: RIGHT;
 }
-/* line 184, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .checkboxclass {
   font-weight: bold;
 }
-/* line 187, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .button.secondary {
   background-color: yellow;
   border-color: white;
   color: #333333;
   width: 100%;
 }
-/* line 193, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .html .panel-col-last.panel-panel .inside .button.secondary:hover,
 .html .panel-col-last.panel-panel .inside .button.secondary:focus {
   background-color: black;
 }
-/* line 200, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .html .panel-flexible.panels-flexible-2.clearfix {
   background-color: #F4CE41;
   margin-left: -15px;
@@ -286,47 +302,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 10%;
   height: 630px;
 }
-/* line 208, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .html .panel-flexible.panels-flexible-2.clearfix button#edit-submit {
   margin-left: 32%;
 }
-/* line 211, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .html .panel-flexible.panels-flexible-2.clearfix h2.pane-title {
   font-size: 160%;
   font-weight: 600;
   text-align: center;
 }
-/* line 218, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .html section.l-triptych.row {
   background: #333C4C;
 }
-/* line 222, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 .html .l-triptych .medium-4.columns {
   background: #1E2326;
   width: 62%;
   color: white;
 }
-/* line 227, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .html .l-triptych h2.block-title {
   color: white;
   margin-bottom: 20px;
   font-weight: bold;
 }
-/* line 233, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 .html .l-triptych .menu a {
   color: white;
 }
-/* line 236, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .html .l-triptych .menu a:hover {
   color: #EFD01B;
 }
-/* line 242, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .html .form-item.form-type-textfield.form-item-email {
   width: 44%;
   float: left;
   margin-right: 20px;
 }
-/* line 247, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .html button#edit-submit--2 {
   height: -11px;
   margin-top: 15px;
@@ -334,36 +350,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #F4CE41;
   color: black;
 }
-/* line 255, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .html section.block.block-imageblock.block-imageblock-1 {
   margin-left: 10%;
   margin-top: 3%;
 }
-/* line 258, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .html section.block.block-imageblock.block-imageblock-1 h2.block-title {
   color: white;
 }
-/* line 262, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .html .footer-six.medium-3.columns {
   height: 301px;
 }
-/* line 265, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .html .medium-3 {
   width: 37% !important;
   float: right;
   margin-top: -300px;
 }
-/* line 273, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .html .l-footer .footer block-menu-menu-contact-sales {
   width: 11%;
   height: 40px;
   background: #F4cE41;
 }
-/* line 279, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .html .l-footer a.active {
   color: black;
 }
-/* line 282, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 .html .l-footer li.first.last.leaf {
   width: 12%;
   float: left;
@@ -374,7 +390,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 600;
   font-family: 'Quicksand', sans-serif;
 }
-/* line 292, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .html .l-footer .footer.columns {
   background: #76858D;
   height: 64px;
@@ -384,16 +400,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 0%;
   margin-top: -19px;
 }
-/* line 300, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .html .l-footer .footer.columns p {
   font-size: 17px;
   margin-top: 10px;
 }
-/* line 304, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .html .l-footer .footer.columns .block-block-4 {
   margin-left: 200px;
 }
-/* line 309, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 .html footer.l-footer.panel.row {
   background: #76858D;
   height: 68px;
@@ -401,20 +417,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: -1px;
   padding-left: 40%;
 }
-/* line 320, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .html .medium-3 {
   width: 33%;
 }
-/* line 324, ../sass/screen.scss */
+/* line 339, ../sass/screen.scss */
 .html .row {
   max-width: 100% !important;
 }
-/* line 327, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .html .inside.panels-flexible-region-inside.panels-flexible-region-2-top-inside.panels-flexible-region-inside-first.panels-flexible-region-inside-last {
   height: 0;
 }
 
-/* line 332, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 .html button#edit-submit--2 {
   height: 38px;
   background: #F4CE41;
@@ -424,29 +440,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: bold;
 }
 
-/* line 340, ../sass/screen.scss */
+/* line 355, ../sass/screen.scss */
 .block-social-media-links-social-media-links {
   float: left;
 }
 
-/* line 343, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- {
   height: 36px;
   padding-top: 11px;
   padding-left: 295px;
   width: 92%;
   font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
 }
-/* line 349, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- a.active {
   color: white;
 }
-/* line 352, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 .block-menu-menu-pantheon-blog- a :hover {
   color: red;
 }
 
-/* line 356, ../sass/screen.scss */
+/* line 372, ../sass/screen.scss */
 .block-block-2 {
   margin-top: 41px;
   color: white;
@@ -456,22 +473,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Quicksand', sans-serif;
 }
 
-/* line 364, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .block-block-3 {
   margin-bottom: 20px;
   color: white;
   font-family: 'Quicksand', sans-serif;
 }
 
-/* line 370, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 .tb-megamenu .nav > li > a {
   border-right: 1px solid #222;
   border-top: 0;
-  /* color: #fff; */
   font-weight: bold;
   padding: 15px 20px;
   text-shadow: none;
-  background: #F4CE4E;
+  background: #181D21;
+  background: #f4ce42;
   color: black;
   margin-left: 5px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* line 398, ../sass/screen.scss */
+.tb-megamenu .nav > li > a:hover {
+  font-family: 'Quicksand', sans-serif;
+  background: white;
+  color: black;
+}
+
+/* line 403, ../sass/screen.scss */
+.tb-megamenu .nav > li.dropdown.open.active > a:hover {
+  font-family: 'Quicksand', sans-serif;
+  background: #181D21;
+  color: #F4CE41;
+}
+
+/* line 408, ../sass/screen.scss */
+form#user-register-form {
+  font-family: sans-serif;
 }

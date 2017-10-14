@@ -19,6 +19,13 @@
           }
         }
     .l-header {
+      //top_bar
+      .first.last.leaf {
+        float: left;
+        h2.block-title {
+          color: white;
+        }
+      }
       background: #181D21;
        .block-tb-megamenu {
          background: #181D21;
@@ -118,16 +125,22 @@
       margin-left: 40%;
       color: #F9cc54;
       margin-top: -46px;
+      font-weight: 600;
+      font-family: 'Quicksand', sans-serif;
     }
     .pane-block-7 {
       margin-left: 40%;
       color: #F9cc54;
       margin-top: -46px;
+      font-weight: 600;
+      font-family: 'Quicksand', sans-serif;
     }
     .pane-block-8 {
       margin-left: 40%;
       color: #F9cc54;
       margin-top: -42px;
+      font-weight: 600;
+      font-family: 'Quicksand', sans-serif;
     }
     .pane-imageblock-5 {
       margin-top: 70px;
@@ -146,6 +159,7 @@
       font-size: 30px;
       margin-left: 40%;
       color: white;
+      font-family: 'Quicksand', sans-serif;
     }
   }
   //panel right-registration
@@ -158,8 +172,9 @@
         font-family: 'Cabin Condensed', sans-serif;
       }
       .pane-block-13 {
-        font-size: 125%;
+        font-size: 103%;
         margin-top: -30px;
+        font-family: 'Quicksand', sans-serif;
       }
       .hybridauth-google-hybridauth-32 {
         background: url('/profiles/pantheonsite/themes/custom/zurb_pantheon/images/googleconnect.png');
@@ -346,6 +361,7 @@ footer.l-footer.panel.row {
     padding-left: 295px;
     width: 92%;
     font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
     a.active {
       color: white;
     }
@@ -370,11 +386,25 @@ footer.l-footer.panel.row {
 .tb-megamenu .nav > li > a {
     border-right: 1px solid #222;
     border-top: 0;
-    /* color: #fff; */
     font-weight: bold;
     padding: 15px 20px;
     text-shadow: none;
-    background: #F4CE4E;
+    background: #181D21;
+    background: #f4ce42;
     color: black;
     margin-left: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.tb-megamenu .nav > li > a:hover {
+  font-family: 'Quicksand', sans-serif;
+  background: white;
+  color: black;
+}
+.tb-megamenu .nav > li.dropdown.open.active > a:hover {
+  font-family: 'Quicksand', sans-serif;
+  background: #181D21;
+  color: #F4CE41;
+}
+form#user-register-form {
+    font-family: sans-serif;
 }
