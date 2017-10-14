@@ -27,8 +27,6 @@ function pantheonsite_install_tasks(&$install_state) {
 /**
   * Implementing the pantheonsite_default_user() create the custom user *
   */
-
-
 function pantheonsite_default_user() {
   $roles = user_roles();
   $admin_user = variable_get('user_admin_role');
