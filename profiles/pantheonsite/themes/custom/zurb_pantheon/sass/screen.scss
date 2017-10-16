@@ -61,26 +61,44 @@
       margin-left: 3%;
       height: 300px;
       float: left;
+      li.first.leaf {
+        padding-bottom: 10px;
+      }
+      li.leaf {
+    padding-bottom: 10px;
     }
+  }
     .block-menu-menu-product {
       font-family: 'Quicksand', sans-serif;
       float: left;
       margin-left: 20px;
+      li.leaf {
+    padding-bottom: 10px;
+    }
     }
     .block-menu-menu-company {
       font-family: 'Quicksand', sans-serif;
       float: left;
       margin-left: 20px;
+      li.leaf {
+    padding-bottom: 10px;
+    }
     }
     .block-menu-menu-help {
       font-family: 'Quicksand', sans-serif;
       float: left;
       margin-left: 30px;
+      li.leaf {
+    padding-bottom: 10px;
+    }
     }
     .block-menu-menu-popular {
       font-family: 'Quicksand', sans-serif;
       float: left;
       margin-left: 20px;
+      li.leaf {
+    padding-bottom: 10px;
+    }
     }
     .block-block-1
     {
@@ -297,7 +315,7 @@ section.block.block-imageblock.block-imageblock-1 {
     color: black;
   }
   li.first.last.leaf {
-    width: 12%;
+    width: 19%;
     float: left;
     background: #F4CE41;
     height: 45px;
@@ -311,7 +329,7 @@ section.block.block-imageblock.block-imageblock-1 {
     height: 64px;
     padding-top: 10px;
     margin-left: -21px;
-    width: 1523px;
+    width: 933px;
     padding-left: 0%;
     margin-top: -19px;
       p {
