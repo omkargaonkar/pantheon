@@ -119,7 +119,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 59, ../sass/screen.scss */
 .html .page .triptych-first .block-menu-menu-solution {
   font-family: 'Quicksand', sans-serif;
-  margin-left: 3%;
+  margin-left: 5%;
   height: 300px;
   float: left;
 }
@@ -503,9 +503,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 402, ../sass/screen.scss */
 .block-block-2 {
-  margin-top: 41px;
+  margin-top: 26px;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 27px;
   size: left;
   font-family: 'Quicksand', sans-serif;
@@ -555,4 +555,45 @@ form#user-register-form {
 .tb-megamenu-row row-fluid .tb-megamenu-column-inner mega-inner clearfix .tb-megamenu-item level-2 mega active active-trail {
   background-image: none;
   background-color: #000;
+}
+
+/* line 449, ../sass/screen.scss */
+.tb-megamenu .mega > .mega-dropdown-menu {
+  min-width: 1000%;
+  margin-left: -658px;
+  display: none;
+}
+
+/* line 454, ../sass/screen.scss */
+.menu {
+  font-size: 80%;
+}
+
+/* line 457, ../sass/screen.scss */
+.block.block-block.contextual-links-region.block-block-1 {
+  font-size: 70%;
+  margin-left: 270px;
+  margin-top: -120px;
+}
+
+/* line 462, ../sass/screen.scss */
+.imageblock-image {
+  margin-left: 40px;
+}
+
+/* line 465, ../sass/screen.scss */
+button, .button {
+  height: 40px;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  margin: 0 0 1.25rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #008CBA;
+  margin-top: 15px;
+  background: #F9CC55;
 }
