@@ -609,3 +609,9 @@ button, .button {
   margin-left: 23px;
   float: left;
 }
+
+/* line 493, ../sass/screen.scss */
+section.block.block-block.block-block-1 {
+  margin-left: 255px;
+  margin-top: -130px;
+}
