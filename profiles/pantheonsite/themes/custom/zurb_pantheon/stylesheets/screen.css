@@ -422,7 +422,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 64px;
   padding-top: 10px;
   margin-left: -21px;
-  width: 933px;
+  width: 100%;
   padding-left: 0%;
   margin-top: -19px;
 }
@@ -596,4 +596,16 @@ button, .button {
   background-color: #008CBA;
   margin-top: 15px;
   background: #F9CC55;
+}
+
+/* line 482, ../sass/screen.scss */
+.panels-flexible-2 div#edit-field-first-name {
+  width: 48%;
+  float: left;
+}
+/* line 486, ../sass/screen.scss */
+.panels-flexible-2 div#field-last-name-add-more-wrapper {
+  width: 48%;
+  margin-left: 23px;
+  float: left;
 }
